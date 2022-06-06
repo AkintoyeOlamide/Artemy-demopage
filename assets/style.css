@@ -1,6 +1,6 @@
 * {
-  margin-top: 10px;
-  background-color: rgb(31, 31, 31);
+  /* margin-top: 10px; */
+  /* background-color: rgb(31, 31, 31); */
   color: white;
 }
 
@@ -10,9 +10,18 @@ img {
 
 .h4-head {
   margin-top: -20px;
-  margin-left: 100px;
-  font-weight: 100;
-  font-size: medium;
+  margin-left: 210px;
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+}
+
+header {
+  background-color: rgb(30, 30, 30);
+  position: inherit;
+  padding-top: 20px;
 }
 
 .main-header-1 {
@@ -24,6 +33,12 @@ img {
 
 .head-text {
   margin-top: 20px;
+  text-align: center;
+  font-family: "Saira";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
   text-align: center;
 }
 
@@ -51,14 +66,21 @@ img {
   font-weight: 900;
 }
 
+/* .main-header{
+  position: relative;
+  background-color: black;
+} */
+
 .sec1 {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .lower-sec img {
   height: 400px;
-  margin-top: -60px;
+  margin-bottom: -120px;
+  margin-left: -200px;
 }
 
 .lower-sec-img2 {
@@ -73,14 +95,13 @@ img {
 .lower-sec2 {
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
 }
 
 @media only screen and (max-width: 768px) {
-
-    .lower-sec img {
-        width: 100%;
-        height: auto;
-        margin-top: -60px;
-      }
-      
+  .lower-sec img {
+    width: 100%;
+    height: auto;
+    margin-top: -60px;
+  }
 }
