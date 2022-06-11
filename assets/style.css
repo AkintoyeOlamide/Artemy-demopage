@@ -2,106 +2,73 @@
   /* margin-top: 10px; */
   /* background-color: rgb(31, 31, 31); */
   color: white;
-}
-
-img {
-  height: 80px;
-}
-
-.h4-head {
-  margin-top: -20px;
-  margin-left: 210px;
-  font-family: "Saira";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 21px;
+  /* background-color: black; */
 }
 
 header {
-  background-color: rgb(30, 30, 30);
-  position: inherit;
-  padding-top: 20px;
+  background-color: rgb(41, 41, 41);
+  padding-top: 25px;
 }
 
-.main-header-1 {
+ul {
+  list-style-type: none;
+}
+
+.first-header-main {
   display: flex;
   flex-direction: column;
-  justify-items: center;
   align-items: center;
 }
 
-.head-text {
-  margin-top: 20px;
+.head-center-text {
   text-align: center;
-  font-family: "Saira";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 30px;
-  text-align: center;
+  margin-top: 40px;
 }
 
-.header2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
+.gmi {
+  border: 1.5px solid white;
+  border-radius: 100px;
+  padding: 5px 30px 0 30px;
+  margin-top: 10px;
 }
 
-.header3 {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
+.gmi h5 {
+  font-size: 15px;
 }
 
-.h6-head {
-  padding: 15px;
-  border: 1px solid white;
-  border-radius: 30px;
+.coming-soon {
+  text-align: end;
+  font-size: 25px;
+  margin-left: 250px;
+  margin-top: -30px;
 }
 
-.head-span {
+.span-text {
   font-weight: 900;
 }
 
-/* .main-header{
-  position: relative;
-  background-color: black;
-} */
+.first-header-img1 {
+  height: 100px;
+}
 
-.sec1 {
+/* second header */
+
+.second-header{
   display: flex;
   justify-content: space-between;
-  position: relative;
 }
 
-.lower-sec img {
-  height: 400px;
-  margin-bottom: -120px;
-  margin-left: -200px;
+.light2{
+  height: 600px;
+  margin-left: -300px;
+  margin-top: -80px;
+  margin-bottom: -370px;
 }
 
-.lower-sec-img2 {
-  height: 90px;
-  width: 300px;
-}
-
-.lower-sec-img {
-  height: 40px;
-}
-
-.lower-sec2 {
-  display: flex;
-  flex-direction: column;
-  margin-top: 100px;
+.second-header3{
+  margin-right: 30px;
+  margin-top: 50px;
 }
 
 @media only screen and (max-width: 768px) {
-  .lower-sec img {
-    width: 100%;
-    height: auto;
-    margin-top: -60px;
-  }
 }
