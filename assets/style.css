@@ -2,6 +2,8 @@
   /* margin-top: 10px; */
   /* background-color: rgb(31, 31, 31); */
   color: white;
+  margin: 0;
+  padding: 0;
   /* background-color: black; */
 }
 
@@ -53,22 +55,25 @@ ul {
 
 /* second header */
 
-.second-header{
+.second-header {
   display: flex;
   justify-content: space-between;
 }
 
-.light2{
+.light23 {
   height: 600px;
   margin-left: -300px;
   margin-top: -80px;
   margin-bottom: -370px;
 }
 
-.second-header3{
+.second-header3 {
   margin-right: 30px;
   margin-top: 50px;
 }
 
 @media only screen and (max-width: 768px) {
+  .first-header-img1 {
+    height: auto;
+  }
 }
