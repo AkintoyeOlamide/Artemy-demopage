@@ -86,4 +86,13 @@ ul {
     align-items: center;
     justify-content: center;
   }
+
+  .main-img-1 {
+    height: 200pxpx;
+  }
+
+  .coming-soon {
+    font-size: 15px;
+    margin-right: 200px;
+  }
 }
