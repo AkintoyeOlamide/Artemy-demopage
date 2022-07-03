@@ -74,6 +74,16 @@ ul {
 
 @media only screen and (max-width: 768px) {
   .first-header-img1 {
-    height: auto;
+    height: 70px;
+  }
+
+  .light23 {
+    display: none;
+  }
+
+  .first-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
