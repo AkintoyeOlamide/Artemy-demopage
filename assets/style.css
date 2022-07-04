@@ -89,16 +89,20 @@ ul {
 
   .main-img-1 {
     height: 200px;
-    margin-top: -100px;
+    margin-top: -120px;
   }
 
   .coming-soon {
     font-size: 15px;
-    margin-top: 1px;
-    margin-right: 200px;
+    padding-top: 20px;
+    margin-left: -100px;
   }
 
-  header{
+  .icons8 {
+    padding-right: 15px;
+  }
+
+  header {
     display: flex;
     flex-direction: column;
     align-items: center;
