@@ -73,6 +73,15 @@ ul {
 }
 
 @media only screen and (max-width: 768px) {
+  * {
+    /* margin-top: 10px; */
+    /* background-color: rgb(31, 31, 31); */
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 41, 41);
+  }
+
   .first-header-img1 {
     height: 70px;
   }
